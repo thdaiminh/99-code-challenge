@@ -99,7 +99,7 @@
 		</div>
 
 		<div class="preview-btn-wrapper">
-			<button class="preview-btn" @click="handleOpenPreviewModal">
+			<button class="preview-btn" @click="handleOpenPreviewModal" :disabled="shouldDisablePreviewCta">
 				<span class="preview-btn-text text-weight-600 text-color-neutral-9">
 					{{ previewCtaText }}
 				</span>
@@ -344,6 +344,9 @@
 				&:hover {
 					cursor: pointer;
 					background: $colorWarning600;
+				}
+				&:disabled {
+					cursor: not-allowed;
 				}
 			}
 		}
