@@ -1,0 +1,138 @@
+// Screen breakpoints
+$breakpoint-xl: 2400px;
+$breakpoint-lg: 2080px;
+$breakpoint-md: 1700px;
+$breakpoint-sm: 1440px;
+$breakpoint-s: 1200px;
+$breakpoint-xs: 1150px;
+$breakpoint-desktop-lg: 1920px;
+$breakpoint-desktop-md: 1440px;
+$breakpoint-desktop-xs: 1025px;
+$breakpoint-tablet-max: 1024.98px;
+$breakpoint-tablet-lg: 1024px;
+$breakpoint-tablet: 940px;
+$breakpoint-tablet-md: 770px;
+$breakpoint-tablet-sm: 744px;
+$breakpoint-mobile-max: 743.98px;
+$breakpoint-mobile-lg: 743px;
+$breakpoint-mobile: 570px;
+$breakpoint-mobile-md: 430px;
+$breakpoint-mobile-sm: 375px;
+
+// Responsive
+// Start of Mobile
+// 375
+@mixin mobile-sm {
+  @media screen and (max-width: $breakpoint-mobile-sm) {
+    @content;
+  }
+}
+
+// 430
+@mixin mobile-md {
+  @media screen and (max-width: $breakpoint-mobile-md) {
+    @content;
+  }
+}
+
+// 570
+@mixin mobile {
+  @media screen and (max-width: $breakpoint-mobile) {
+    @content;
+  }
+}
+
+// 743
+@mixin mobile-lg {
+  @media screen and (max-width: $breakpoint-mobile-lg) {
+    @content;
+  }
+}
+
+// 743.98
+@mixin max-mobile {
+  @media screen and (max-width: $breakpoint-mobile-max) {
+    @content;
+  }
+}
+// End of Mobile
+
+// Start of Tablet
+
+// 744
+@mixin tablet-sm {
+  @media screen and (max-width: $breakpoint-tablet-sm) {
+    @content;
+  }
+}
+
+// 770
+@mixin tablet-md {
+  @media screen and (max-width: $breakpoint-tablet-md) {
+    @content;
+  }
+}
+
+// 940
+@mixin tablet {
+  @media screen and (max-width: $breakpoint-tablet) {
+    @content;
+  }
+}
+
+// 1024
+@mixin tablet-lg {
+  @media screen and (max-width: $breakpoint-tablet-lg) {
+    @content;
+  }
+}
+
+// 1024.98
+@mixin max-tablet {
+  @media screen and (max-width: $breakpoint-tablet-max) {
+    @content;
+  }
+}
+// End of Tablet
+
+// Start of Desktop
+// 1025
+@mixin desktop-xs {
+  @media screen and (max-width: $breakpoint-desktop-xs) {
+    @content;
+  }
+}
+
+// 1200
+@mixin desktop-s {
+  @media screen and (max-width: $breakpoint-s) {
+    @content;
+  }
+}
+
+// 1440
+@mixin desktop-sm {
+  @media screen and (max-width: $breakpoint-sm) {
+    @content;
+  }
+}
+
+// 1700
+@mixin desktop-md {
+  @media screen and (max-width: $breakpoint-desktop-md) {
+    @content;
+  }
+}
+
+// 2080
+@mixin desktop-lg {
+  @media screen and (max-width: $breakpoint-desktop-lg) {
+    @content;
+  }
+}
+
+@mixin desktop-xl {
+  @media screen and (max-width: $breakpoint-xl) {
+    @content;
+  }
+}

@@ -1,0 +1,199 @@
+$colorWhite: #ffffff;
+$colorBlack: #000000;
+
+$colorPrimary100: #F6F3FF;
+$colorPrimary200: #EFEBFA;
+$colorPrimary300: #D6CCF3;
+$colorPrimary400: #AC94E9;
+$colorPrimary500: #7530DE;
+$colorPrimary600: #6027B5;
+$colorPrimary700: #502198;
+$colorPrimary800: #2B1151;
+$colorPrimary900: #190A2F;
+
+$colorNeutral100: #f5f7f9;
+$colorNeutral200: #edeff2;
+$colorNeutral300: #d2d6e0;
+$colorNeutral400: #a3acbd;
+$colorNeutral500: #7a869f;
+$colorNeutral600: #5e6a82;
+$colorNeutral700: #353d4d;
+$colorNeutral800: #252b37;
+$colorNeutral900: #15181e;
+
+$colorSecondary100: #fffafc;
+$colorSecondary200: #fceef5;
+$colorSecondary300: #f7cfe4;
+$colorSecondary400: #ec93c1;
+$colorSecondary500: #dc3289;
+$colorSecondary600: #ae286c;
+$colorSecondary700: #62163d;
+$colorSecondary800: #2c0a1b;
+$colorSecondary900: #0b0307;
+
+$colorTertiary-1-100: #f7fcfc;
+$colorTertiary-1-200: #e6f9f7;
+$colorTertiary-1-300: #c6f0ec;
+$colorTertiary-1-400: #86dfd7;
+$colorTertiary-1-500: #02bcab;
+$colorTertiary-1-600: #029284;
+$colorTertiary-1-700: #01534c;
+$colorTertiary-1-800: #002522;
+$colorTertiary-1-900: #000909;
+
+$colorTertiary-2-100: #fffaf5;
+$colorTertiary-2-200: #ffeee0;
+$colorTertiary-2-300: #fcd8c0;
+$colorTertiary-2-400: #faba8e;
+$colorTertiary-2-500: #f77d2b;
+$colorTertiary-2-600: #c36322;
+$colorTertiary-2-700: #6e3813;
+$colorTertiary-2-800: #311909;
+$colorTertiary-2-900: #0c0602;
+
+$colorTertiary-3-100: #ffffeb;
+$colorTertiary-3-200: #fff8d6;
+$colorTertiary-3-300: #fef2af;
+$colorTertiary-3-400: #feea71;
+$colorTertiary-3-500: #ffde17;
+$colorTertiary-3-600: #c9af12;
+$colorTertiary-3-700: #71630a;
+$colorTertiary-3-800: #322c05;
+$colorTertiary-3-900: #0d0b01;
+
+$colorSuccess100: #e8fbf0;
+$colorSuccess200: #cbf5de;
+$colorSuccess300: #98ebbc;
+$colorSuccess400: #64e29b;
+$colorSuccess500: #31d87a;
+$colorSuccess600: #14bb5d;
+$colorSuccess700: #0f8d46;
+$colorSuccess800: #0a5e2f;
+$colorSuccess900: #052f17;
+
+$colorInfo100: #edf6fd;
+$colorInfo200: #c0def6;
+$colorInfo300: #93c6f0;
+$colorInfo400: #66afea;
+$colorInfo500: #3a97e4;
+$colorInfo600: #1c7ece;
+$colorInfo700: #1663a2;
+$colorInfo800: #104775;
+$colorInfo900: #0a2c48;
+
+$colorWarning100: #fff5e9;
+$colorWarning200: #ffe9cd;
+$colorWarning300: #ffd49c;
+$colorWarning400: #ffbe6a;
+$colorWarning500: #ffa938;
+$colorWarning600: #d7851a;
+$colorWarning700: #aa6915;
+$colorWarning800: #71460e;
+$colorWarning900: #392307;
+
+$colorDanger100: #ffeceb;
+$colorDanger200: #ffd5d2;
+$colorDanger300: #ffaca4;
+$colorDanger400: #ff8277;
+$colorDanger500: #ff594a;
+$colorDanger600: #e23c2d;
+$colorDanger700: #aa2d22;
+$colorDanger800: #711e17;
+$colorDanger900: #390f0b;
+
+$colorProGradient: linear-gradient(133deg, #cd7711 0%, #ffc600 100%);
+
+$colorPremium: #fbbe28;
+
+$colorPaletteMapClasses: (
+        primary-1: $colorPrimary100,
+        primary-2: $colorPrimary200,
+        primary-3: $colorPrimary300,
+        primary-4: $colorPrimary400,
+        primary-5: $colorPrimary500,
+        primary-6: $colorPrimary600,
+        primary-7: $colorPrimary700,
+        primary-8: $colorPrimary800,
+        primary-9: $colorPrimary900,
+        neutral-1: $colorNeutral100,
+        neutral-2: $colorNeutral200,
+        neutral-3: $colorNeutral300,
+        neutral-4: $colorNeutral400,
+        neutral-5: $colorNeutral500,
+        neutral-6: $colorNeutral600,
+        neutral-7: $colorNeutral700,
+        neutral-8: $colorNeutral800,
+        neutral-9: $colorNeutral900,
+        secondary-1: $colorSecondary100,
+        secondary-2: $colorSecondary200,
+        secondary-3: $colorSecondary300,
+        secondary-4: $colorSecondary400,
+        secondary-5: $colorSecondary500,
+        secondary-6: $colorSecondary600,
+        secondary-7: $colorSecondary700,
+        secondary-8: $colorSecondary800,
+        secondary-9: $colorSecondary900,
+        tertiary1-1: $colorTertiary-1-100,
+        tertiary1-2: $colorTertiary-1-200,
+        tertiary1-3: $colorTertiary-1-300,
+        tertiary1-4: $colorTertiary-1-400,
+        tertiary1-5: $colorTertiary-1-500,
+        tertiary1-6: $colorTertiary-1-600,
+        tertiary1-7: $colorTertiary-1-700,
+        tertiary1-8: $colorTertiary-1-800,
+        tertiary1-9: $colorTertiary-1-900,
+        tertiary2-1: $colorTertiary-2-100,
+        tertiary2-2: $colorTertiary-2-200,
+        tertiary2-3: $colorTertiary-2-300,
+        tertiary2-4: $colorTertiary-2-400,
+        tertiary2-5: $colorTertiary-2-500,
+        tertiary2-6: $colorTertiary-2-600,
+        tertiary2-7: $colorTertiary-2-700,
+        tertiary2-8: $colorTertiary-2-800,
+        tertiary2-9: $colorTertiary-2-900,
+        tertiary3-1: $colorTertiary-3-100,
+        tertiary3-2: $colorTertiary-3-200,
+        tertiary3-3: $colorTertiary-3-300,
+        tertiary3-4: $colorTertiary-3-400,
+        tertiary3-5: $colorTertiary-3-500,
+        tertiary3-6: $colorTertiary-3-600,
+        tertiary3-7: $colorTertiary-3-700,
+        tertiary3-8: $colorTertiary-3-800,
+        tertiary3-9: $colorTertiary-3-900,
+        success-1: $colorSuccess100,
+        success-2: $colorSuccess200,
+        success-3: $colorSuccess300,
+        success-4: $colorSuccess400,
+        success-5: $colorSuccess500,
+        success-6: $colorSuccess600,
+        success-7: $colorSuccess700,
+        success-8: $colorSuccess800,
+        success-9: $colorSuccess900,
+        info-1: $colorInfo100,
+        info-2: $colorInfo200,
+        info-3: $colorInfo300,
+        info-4: $colorInfo400,
+        info-5: $colorInfo500,
+        info-6: $colorInfo600,
+        info-7: $colorInfo700,
+        info-8: $colorInfo800,
+        info-9: $colorInfo900,
+        warning-1: $colorWarning100,
+        warning-2: $colorWarning200,
+        warning-3: $colorWarning300,
+        warning-4: $colorWarning400,
+        warning-5: $colorWarning500,
+        warning-6: $colorWarning600,
+        warning-7: $colorWarning700,
+        warning-8: $colorWarning800,
+        warning-9: $colorWarning900,
+        danger-1: $colorDanger100,
+        danger-2: $colorDanger200,
+        danger-3: $colorDanger300,
+        danger-4: $colorDanger400,
+        danger-5: $colorDanger500,
+        danger-6: $colorDanger600,
+        danger-7: $colorDanger700,
+        danger-8: $colorDanger800,
+        danger-9: $colorDanger900,
+);

@@ -1,0 +1,52 @@
+@use "colorsPalette";
+
+// Text position
+.text-left {
+  text-align: left;
+}
+.text-center {
+  text-align: center;
+}
+.text-right {
+  text-align: right;
+}
+.text-justify {
+  text-align: justify;
+}
+
+// Text Weight
+.text-weight-400 {
+  font-weight: 400 !important;
+}
+.text-weight-500 {
+  font-weight: 500 !important;
+}
+.text-weight-600 {
+  font-weight: 600 !important;
+}
+.text-weight-700 {
+  font-weight: 700 !important;
+}
+
+// Text color based on class
+.text-color-black-4 {
+  color: rgba(0, 0, 0, 0.4);
+}
+
+.text-color-black-5 {
+  color: #00000080;
+}
+
+.text-color-black-6 {
+  color: #00000099;
+}
+
+.text-color-black-7 {
+  color: #000000b2;
+}
+
+@each $colorKey, $colorValue in colorsPalette.$colorPaletteMapClasses {
+  .text-color-#{$colorKey} {
+    color: $colorValue;
+  }
+}
