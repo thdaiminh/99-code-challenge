@@ -1,5 +1,20 @@
-# Vue 3 + TypeScript + Vite
+# Currency Swapper Form
 
-This template should help get you started developing with Vue 3 and TypeScript in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+## Technology
+### Vue 3 + TypeScript + Vite
 
-Learn more about the recommended Project Setup and IDE Support in the [Vue Docs TypeScript Guide](https://vuejs.org/guide/typescript/overview.html#project-setup).
+## Project setup
+### Head to problem2 directory
+```bash
+cd src/problem2
+```
+### Install the dependencies
+```bash
+npm i
+```
+### Start the app in development mode
+```bash
+npm run dev
+```
+
+### App is served on port 8080
